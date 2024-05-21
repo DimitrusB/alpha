@@ -1,0 +1,32 @@
+@media screen and (min-width:360px) and (max-width: 991px) {
+.header{
+    display: flex;
+    height: 40px;
+    background-color: #111311;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+.container{
+    background-image:url(/img/image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 585px;
+}
+
+.sendInfo{
+    background-color: #DD3037;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    color: white;
+}
+
+.aboutCompany{
+    background-color: #212121;
+    height: 552px;
+}
+
+}
