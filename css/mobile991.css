@@ -1,32 +1,64 @@
-@media screen and (min-width:360px) and (max-width: 991px) {
-.header{
+@media screen and (min-width: 360px) and (max-width: 991px) {
+  .header {
     display: flex;
     height: 40px;
     background-color: #111311;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-}
-.container{
-    background-image:url(/img/image.webp);
+  }
+
+  .header__Tel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    background-image: url(/img/image.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 585px;
-}
+  }
+  .container__main {
+    padding-top: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+  }
 
-.sendInfo{
-    background-color: #DD3037;
+  .container__H1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .container__H2 {
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .sendInfo {
+    background-color: #dd3037;
     border: none;
     border-radius: 30px;
     height: 40px;
     width: 200px;
     color: white;
-}
+    margin-bottom: 45px;
+  }
 
-.aboutCompany{
+  .aboutCompany {
     background-color: #212121;
     height: 552px;
-}
-
+  }
 }
