@@ -52,9 +52,10 @@
     border: none;
     border-radius: 30px;
     height: 40px;
-    width: 200px;
+    width: auto;
     color: white;
     margin-bottom: 45px;
+    text-transform: uppercase;
   }
 
   .aboutCompany {
@@ -122,12 +123,101 @@
     text-align: center;
   }
 
-  .num__sens_together{
+  .num__sens_together {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .select__division{
+  .select__division {
     background: rgb(33, 33, 33);
+    padding-top: 43px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .select__devision_form {
+    border-radius: 5px;
+    position: static;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px 0px 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .active {
+    background: rgb(153, 153, 153);
+    color: rgb(33, 33, 33);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .select__devision_forms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .devision__item {
+    position: static;
+    width: auto;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 15px 0px;
+  }
+  .devision__item_cloud{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .devision__item_work {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .devision {
+    color: rgb(255, 255, 255);
+  }
+  .price {
+    color: rgb(33, 160, 56);
   }
 }
