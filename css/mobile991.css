@@ -237,6 +237,7 @@
     width: max-content;
     height: max-content;
     display: flex;
+    width: 108px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -272,6 +273,8 @@
   .products__company_forms {
     display: flex;
     gap: 5px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
 
   .product__span {
@@ -297,7 +300,6 @@
   }
   .product__item {
     border-bottom: 3px solid rgb(153, 153, 153);
-    /* width: calc(100% - 40px); */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -318,5 +320,98 @@
 
   .hidden {
     display: none;
+  }
+
+  .ourproduct {
+    background: rgb(33, 33, 33);
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ourProd {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .ourproduct__items {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 35px;
+  }
+  .ourproduct__item {
+    width: 165px;
+    height: 182px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px rgba(217, 217, 217, 0.25);
+    background: rgb(217, 217, 217);
+  }
+  .ourproduct__item1 {
+    width: 130px;
+    height: 147.88px;
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 6.073%,
+        rgba(0, 0, 0, 0.7) 99.892%
+      ),
+      rgb(217, 217, 217);
+    transform: rotate(180deg);
+  }
+  .ourproduct__item2 {
+    width: 130px;
+    height: 147.88px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 6.073%,
+        rgba(0, 0, 0, 0.7) 99.892%
+      ),
+      rgb(217, 217, 217);
+  }
+
+  .ourproducts__elips {
+    display: flex;
+    gap: 9px;
+    padding-bottom: 45px;
+  }
+  .elips {
+    position: static;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(136, 137, 136);
+  }
+
+  .selected {
+    width: 42.6px;
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+  }
+
+  .cariers {
+    display: flex;
+    width: calc(100% - 40px);
+    padding: 0 20px 35px 0;
+    background: rgb(17, 19, 17);
+    flex-direction: column;
+    align-items: center;
+  }
+  .ceriers__about {
+    color: rgb(255, 255, 255);
+    font-family: Gothampro;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
   }
 }
