@@ -8,8 +8,8 @@
     align-items: center;
   }
   @font-face {
-    font-family: 'Gothampro', sans-serif;
-    src: url(/source/fonts/GothamPro-Light.woff2); 
+    font-family: "Gothampro", sans-serif;
+    src: url(/source/fonts/GothamPro-Light.woff2);
   }
 
   .header__Tel {
@@ -202,7 +202,7 @@
     flex-grow: 0;
     margin: 15px 0px;
   }
-  .devision__item_cloud{
+  .devision__item_cloud {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -225,7 +225,7 @@
     color: rgb(33, 160, 56);
   }
 
-  .products__company{
+  .products__company {
     background: rgb(17, 19, 17);
     display: flex;
     flex-direction: column;
@@ -269,29 +269,40 @@
     text-transform: uppercase;
   }
 
-  .products__company_forms{
+  .products__company_forms {
     display: flex;
     gap: 5px;
   }
 
-.product__span{
-  color: rgb(255, 255, 255);
-font-family: Gothampro;
-font-size: 18px;
-font-weight: 700;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;
-}
-.product__item{
-  position: static;
-  width: 320px;
-  height: 55px;
-  /* Автолейаут */
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 15px 0px 15px 0px;
-}
+  .product__span {
+    color: rgb(255, 255, 255);
+    font-family: Gothampro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 280px;
+  }
+  .product__item {
+    border-bottom: 3px solid rgb(153, 153, 153);
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    position: static;
+  }
+  .prod {
+    padding-bottom: 20px;
+  }
+  .product__item_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hidden{
+    display: none;
+  }
 }
