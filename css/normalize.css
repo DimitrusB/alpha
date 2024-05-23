@@ -33,6 +33,11 @@
   main {
     display: block;
   }
+
+  @font-face {
+    font-family: 'Gothampro', sans-serif;
+    src: url(/source/fonts/gothampro_bold.ttf); 
+  }
   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
@@ -63,11 +68,11 @@
    * 2. Correct the odd `em` font sizing in all browsers.
    */
   
-  pre {
+  /* pre {
     font-family: monospace, monospace; /* 1 */
     font-size: 1em; /* 2 */
   }
-  
+   */
   /* Text-level semantics
      ========================================================================== */
   
