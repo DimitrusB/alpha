@@ -184,7 +184,7 @@
   .devision__item {
     position: static;
     width: auto;
-    height: 130px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -646,8 +646,18 @@
     padding-bottom: 15px;
   }
 
-  footer{
+  footer {
     display: flex;
     flex-direction: column;
+  }
+
+  .more__info {
+    color: rgb(255, 255, 255);
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
   }
 }
