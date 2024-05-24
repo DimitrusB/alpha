@@ -33,8 +33,10 @@ moreBtns.forEach(btn => {
 
     if (hiddenSpan.classList.contains("hidden")) {
       hiddenSpan.classList.remove("hidden");
+      btn.style.rotate = '45deg';
     } else {
       hiddenSpan.classList.add("hidden");
+      btn.style.rotate = 'none';
     }
   });
 });
