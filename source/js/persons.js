@@ -2,7 +2,7 @@ import { person } from "./const.js";
 
 const aboutPersons = document.getElementById("persons");
 let currentIndex = 0;
-
+console.log(person);
 renderPerson(person[currentIndex]);
 
 function renderPerson(personInfo) {
@@ -10,9 +10,9 @@ function renderPerson(personInfo) {
   card.classList.add("person__item");
   card.innerHTML = `
     <div style="display: flex; justify-content: space-between; width: 100%;">
-      <img src="../../img/line.svg" alt="prev" title="Предыдущий" id="prev">
+      <img src="../../img/line.svg" alt="prev" id="prev">
       <img src="${personInfo.image}" alt="${personInfo.name}">
-      <img src="../../img/line.svg" alt="next" style="transform: rotate(180deg);" title="Следующий" id="next">
+      <img src="../../img/line.svg" alt="next" style="transform: rotate(180deg);" id="next">
     </div>
     <div>
     <div class="person__item_name">${personInfo.name}</div>
@@ -24,11 +24,11 @@ function renderPerson(personInfo) {
       .join("")}
   </ul>
 `;
-console.log(currentIndex);
 aboutPersons.appendChild(card);
 }
 
 const prev = document.getElementById("prev");
+
 prev.addEventListener("click", () => {
     next.disabled = false;
   if (currentIndex > 0) {
@@ -43,8 +43,9 @@ prev.addEventListener("click", () => {
 const next = document.getElementById("next");
 next.addEventListener("click", () => {
     prev.disabled = false;
-  if (currentIndex < person.length - 1) {
+  if (currentIndex < person.length -1 ) {
     currentIndex += 1;
+    console.log(currentIndex);
     aboutPersons.innerHTML = "";
     renderPerson(person[currentIndex]);
   } else {

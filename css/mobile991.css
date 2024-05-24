@@ -237,11 +237,10 @@
     width: max-content;
     height: max-content;
     display: flex;
-    width: 108px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px 16px 0px 16px;
+    padding: 0px 80px 0px 80px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -400,7 +399,7 @@
   .cariers {
     display: flex;
     width: calc(100% - 40px);
-    padding: 0 20px 35px;
+    padding: 0 20px 87px;
     background: rgb(17, 19, 17);
     flex-direction: column;
     align-items: center;
@@ -453,5 +452,206 @@
     line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
+  }
+  .our__successes {
+    position: relative;
+    background: radial-gradient(
+        circle,
+        rgb(0 0 0 / 30%) 26%,
+        rgb(33, 33, 33) 95%
+      ),
+      #3d9542;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 40px);
+    padding: 45px 20px;
+  }
+
+  .our__successes_content {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 140px;
+  }
+
+  .our__successes_image {
+    position: absolute;
+  }
+
+  .window {
+    right: 0.41%;
+    top: 13.63%;
+  }
+
+  .char1 {
+    left: 5.73%;
+    top: 41.47%;
+  }
+
+  .char2 {
+    right: 38.65%;
+    top: 34.91%;
+    transform: rotate(5.58deg);
+  }
+
+  .char3 {
+    left: 48.73%;
+    top: 40.98%;
+    transform: rotate(-0.42deg);
+  }
+
+  .char4 {
+    left: 61.88%;
+    top: 35.12%;
+    transform: rotate(6.42deg);
+  }
+
+  .our__successes_form {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    border: 3px solid rgb(54, 133, 59);
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+      0px 0px 10px 0px rgba(79, 183, 86, 0.7);
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .our__successes_text {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0 25px;
+  }
+
+  .successes {
+    margin-bottom: 0;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(17, 19, 17);
+    width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+
+  .contacts_form {
+    position: static;
+    width: 150px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Gothampro;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .active {
+    background: rgb(153, 153, 153);
+    color: rgb(33, 33, 33);
+    font-family: Gothampro;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .contacts_forms {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 40px;
+  }
+
+  .contacts__info {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+
+    & p {
+      color: rgb(255, 255, 255);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+
+  .contacts__info_all {
+    background: rgb(17, 19, 17);
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    gap: 16px;
+    padding-bottom: 45px;
+  }
+
+  .contacts__sot {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .rightcopy {
+    background: rgb(17, 19, 17);
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 40px);
+    padding: 40px 20px 50px;
+    gap: 16px;
+    padding-top: 40px;
+    align-items: center;
+  }
+
+  .rightcopy__about {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .sec {
+    padding-bottom: 15px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
   }
 }
