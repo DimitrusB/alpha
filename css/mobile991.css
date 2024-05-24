@@ -7,10 +7,6 @@
     justify-content: space-around;
     align-items: center;
   }
-  @font-face {
-    font-family: "Gothampro", sans-serif;
-    src: url(/source/fonts/GothamPro-Light.woff2);
-  }
 
   .header__Tel {
     display: flex;
@@ -234,13 +230,12 @@
 
   .products__company_form {
     position: static;
-    width: max-content;
+    width: 100px;
     height: max-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px 80px 0px 80px;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -248,13 +243,13 @@
     border: 3px solid rgb(153, 153, 153);
     border-radius: 5px;
     color: rgb(255, 255, 255);
-    font-family: Gothampro;
     font-size: 12px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0px;
     text-align: center;
     text-transform: uppercase;
+    background: transparent;
   }
 
   .active {
@@ -335,6 +330,7 @@
   }
 
   .ourproduct__items {
+    width: 100%;
     display: flex;
     overflow: hidden;
     flex-direction: row;
