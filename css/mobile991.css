@@ -105,7 +105,7 @@
   .num__sentences {
     position: static;
     width: 216px;
-    height: 40px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

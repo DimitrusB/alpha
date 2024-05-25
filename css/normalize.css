@@ -11,6 +11,7 @@
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
+
   }
   
   /* Sections
@@ -20,11 +21,17 @@
    * Remove the margin in all browsers.
    */
   
-  body {
+   @font-face {
+    font-family: 'Gothampro';
+    src: url('/source/fonts/gothampro_bold.ttf') format('truetype');
+
+}
+
+body {
     margin: 0;
     padding: 0;
-
-  }
+    font-family: 'Gothampro', sans-serif;
+}
   
   /**
    * Render the `main` element consistently in IE.
@@ -34,10 +41,6 @@
     display: block;
   }
 
-  @font-face {
-    font-family: 'Gothampro', sans-serif;
-    src: url(/source/fonts/gothampro_bold.ttf); 
-  }
   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
