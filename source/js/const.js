@@ -1,7 +1,7 @@
 const moreIcon = "./img/more.svg";
 export const work = [
   {
-    worker: "прораб",
+    worker: "Прораб",
     price: "00 000",
     icon: moreIcon,
     tasks:['описание', 'описание', 'описание'],
