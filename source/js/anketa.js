@@ -25,7 +25,8 @@ function newCard() {
       </div>
       <span class="anketa__text">Отклик на вакансию</span>
       <div class="anketa__border">
-      <select id="workerSelect" class="anketa__input" >
+      <select id="workerSelect" class="anketa__input">
+      <option disabled selected>Выберите вакансию</option>
       ${work.map((element) => `<option value="${element.worker}">${element.worker}</option>`).join("")}
     </select>
     </div>
